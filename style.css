@@ -1,0 +1,28 @@
+
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+    h2{
+        width: 50%;
+        text-align: center;
+        border-bottom: 5px solid brown;
+        font-family: fantasy;
+        box-shadow: 4px;
+
+    }
+
+    img{
+        margin: 13px;
+        width: 600px;
+        height: 350px;
+        transition: all 1s;
+    }
+
+    img:hover{
+    transform: scale(1.1);
+
+         }
